@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  user.api:
+    image: user.api
+    build:
+      context: .
+      dockerfile: User.Api\Dockerfile
